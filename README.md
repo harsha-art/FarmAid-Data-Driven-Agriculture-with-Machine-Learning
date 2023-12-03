@@ -40,4 +40,4 @@ $session = \Stripe\Checkout\Session::create([
 - OpenAI API Key to index.php and fchatgpt.php
 
 5. Import database from db folder.
-6. Run Apache web server using XAMPP.
+6. Run Apache web server using XAMPP. ( Use Only The Contents Of The Agriculture Portal Main Folder For the PHP Server )
