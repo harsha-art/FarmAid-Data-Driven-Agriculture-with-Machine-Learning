@@ -8,7 +8,7 @@ We also use the weather data to predict flood using an IOT device equipped with 
 # Installation
 1. Clone the repository to your local machine.
 ```
-git clone https://github.com/harsha-art/Agriculture-Portal-Flood-Prediction.git
+git clone https://github.com/harsha-art/FarmAid-Data-Driven-Agriculture-with-Machine-Learning.git
 ```
 
 2. Goto Farmers folder and Install the required packages using pip.
