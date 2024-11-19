@@ -1,15 +1,12 @@
 # Agriculture Portal
 
 - Agriculture Portal is a machine learning-based project designed to provide predictions and recommendations for farmers. The system uses different algorithms to predict crops, recommend fertilizers, and provide rainfall and yield predictions to help farmers make informed decisions about their crops.
-- IT also has direct crop sales to customer with real payment interface using Stripe API.
 - Other supporting features are Chatbot using OPENAI's gpt-3.5-turbo model, Weather Forecast upto 4 days using Weather API, Agriculture realetd news using News API.
 
 ## Pre Requisites
 ### Get Below API Keys
 - [News API](https://newsapi.org/)
 - [OpenWeatherMap API](https://openweathermap.org/api)
-- [Stripe API](https://dashboard.stripe.com/account/apikeys)
-- [OpenAI API](https://platform.openai.com/account/api-keys)
 
 ### Gmail SMTP Setup
 1. Setup  [app password for gmail](https://support.google.com/accounts/answer/185833?hl=en)
@@ -45,7 +42,7 @@ function smtp_mailer($to,$subject, $msg){
 
 1. Clone the repository to your local machine.
 ```bash
-git clone https://github.com/vaishnavid0604/agriculture-portal.git
+git clone https://github.com/harsha-art/FarmAid-Data-Driven-Agriculture-with-Machine-Learning.git
 ```
 2. Goto Farmers folder and Install the required packages using pip.
 ```
@@ -71,7 +68,6 @@ $session = \Stripe\Checkout\Session::create([
 4. Add API Keys to respective files.
 - News API Key to `fnewsfeed.php`
 - OpenWeatherMap API Key to `fweather_forecast.php`
-- Stripe API Key to `customer/stripePayment/config.php`
 - OpenAI API Key to `index.php` and `fchatgpt.php`
 5. Import database from db folder.
 6. Run Apache web server using XAMPP.
